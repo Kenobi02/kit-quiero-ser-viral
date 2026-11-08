@@ -143,8 +143,6 @@ Claude Code ya pide al instalarse.
 
 ## Lo que se descubrió al construirlo (para que no te pille por sorpresa)
 
-- **La primera versión hacía hablar una foto tuya con IA.** Se quitó: no quedaba natural. Tu
-  grabación de verdad funciona mejor.
 - **Las pausas se miden con el nivel de cada grabación**: con un umbral fijo, en una habitación con
   ruido no se veía ninguna pausa; con el propio, se quitaron 14 en 61 segundos.
 - **El transcriptor descoloca los tiempos** en grabaciones largas: el kit transcribe por tramos y
