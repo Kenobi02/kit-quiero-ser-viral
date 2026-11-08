@@ -1,0 +1,20 @@
+{
+  "name": "kit-quiero-ser-viral",
+  "private": true,
+  "type": "module",
+  "description": "Kit de Claude Code: de tu material y tu marca a 3 vídeos verticales listos para TikTok e Instagram.",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@higgsfield/cli": "1.1.25",
+    "@remotion/cli": "4.0.541",
+    "@remotion/fonts": "4.0.541",
+    "@remotion/install-whisper-cpp": "4.0.541",
+    "ffmpeg-static": "5.2.0",
+    "ffprobe-static": "3.1.0",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "remotion": "4.0.541"
+  }
+}

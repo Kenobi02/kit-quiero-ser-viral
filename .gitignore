@@ -1,0 +1,30 @@
+# Config personal de cada ordenador — no se comparte ni se sube a git
+.claude/settings.local.json
+
+# Marcador que crea /setup en cada ordenador
+.claude/setup-completado.json
+
+# Claves y secretos — nunca viajan
+.env.local
+.env
+
+# El contrato de construcción — documento interno, no se publica
+_CONTRATO.md
+
+# Resultados de trabajos reales (marca, investigación, guiones, vídeos) — son de cada persona
+workspace/*
+!workspace/.gitkeep
+
+# Lo que instala /setup (se descarga en cada ordenador)
+node_modules/
+motor/
+bin/*
+!bin/.gitkeep
+
+# Medios temporales del montaje (las tipografías sí viajan)
+editor/public/*
+!editor/public/fuentes/
+
+# Basura del sistema
+.DS_Store
+Thumbs.db

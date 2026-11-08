@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node herramientas/*)",
+      "Bash(node --version)",
+      "Bash(npm install)",
+      "Bash(npm install --no-audit --no-fund)",
+      "Bash(mkdir:*)",
+      "Bash(ls:*)",
+      "Bash(cp:*)",
+      "Bash(start:*)",
+      "Bash(open:*)",
+      "Bash(explorer.exe:*)",
+      "Bash(where:*)",
+      "Bash(which:*)",
+      "Read",
+      "WebSearch",
+      "WebFetch"
+    ]
+  }
+}
